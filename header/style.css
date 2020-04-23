@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    background: rgb(184, 50, 50);
+}
+ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    justify-content: space-around;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+}
+ul li:hover{
+    border: none;
+    border-bottom: 4px solid #ffffff;
+    
+}
+ul li a{
+    padding:10px;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: space-between;
+}
+ul li a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbar-brand{
+    color: #ffffff;
+}
+.navbar-brand:hover{
+    color: #ffffff;
+}
+a .navbar-brand{
+    padding-top: 2px;
+}
+.card p{
+    text-align: left;
+    margin: 15px;
+    font-size: 33px;
+    font-weight: 500;
+    padding: 0 25px;
+}
+.card a{
+    margin-top: 9px;
+    float: right;
+    color: black;
+}
+.atas{
+    margin-top: 10px;
+
+}
+
+.fa-trash-alt{
+    background: #ffffff;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 1px;
+    margin-left: 5px;
+    align-items: center;
+}
+.fa-trash-alt:hover{
+    color: red;
+}
+table tr td h5{
+    align-items: center;
+    color: #ffffff;
+    
+}
+.haha{
+    margin: 1px;
+    min-height: 1vh;
+}
